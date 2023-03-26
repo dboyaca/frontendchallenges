@@ -52,3 +52,11 @@
     max-width: 90%;
     border-radius: 8px;
 }
+
+/* Media Queries for smaller screens */
+
+@media (max-width: 450px){
+    .card{
+        max-width: 85%;
+   }
+}
