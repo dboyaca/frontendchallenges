@@ -1,0 +1,54 @@
+.container {
+    background-color: #D5E1EF;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 62vh;
+    width: 20vw;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.card-image {
+    display:grid;
+    place-items: center;
+    height: 60%;
+    width: 95%;
+}
+
+.card-title{
+    height: 10%;
+    display:grid;
+    width: 95%;
+    font-weight: 700;
+    font-size: 2.7vh;
+    place-items: center;
+    padding:15px;
+
+}
+
+.card-content{
+    display:grid;
+    place-items: center;
+    height: 30%;
+    width: 95%;
+    font-weight: 400;
+    font-size: 2.0vh;
+    padding:15px;
+    color: #4f4c4c;
+}
+
+.img-qr {
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+}
