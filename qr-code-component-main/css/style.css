@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 62vh;
-    width: 20vw;
+    min-height: 62vh;
+    max-width: 20vw;
     border-radius: 15px;
     font-family: 'Outfit', sans-serif;
     text-align: center;
@@ -21,16 +21,16 @@
 .card-image {
     display:grid;
     place-items: center;
-    height: 60%;
-    width: 95%;
+    min-height: 50%;
+    max-width: 95%;
 }
 
 .card-title{
-    height: 10%;
+    min-height: 10%;
+    max-width: 95%;
     display:grid;
-    width: 95%;
     font-weight: 700;
-    font-size: 2.7vh;
+    font-size: 1rem;
     place-items: center;
     padding:15px;
 
@@ -39,16 +39,16 @@
 .card-content{
     display:grid;
     place-items: center;
-    height: 30%;
-    width: 95%;
+    min-height: 30%;
+    max-width: 95%;
     font-weight: 400;
-    font-size: 2.0vh;
+    font-size: 0.8rem;
     padding:15px;
     color: #4f4c4c;
 }
 
 .img-qr {
-    height: 90%;
-    width: 90%;
+    max-height: 90%;
+    max-width: 90%;
     border-radius: 8px;
 }
